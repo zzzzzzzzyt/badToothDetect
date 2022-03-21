@@ -36,6 +36,7 @@ for i, png in enumerate(jpglist):
     # imgray = cv.adaptiveThreshold(imgray, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 11, 2)
 
 
+    # 孔洞填充下面是
 
     # 原图取补得到MASK图像
     mask = 255 - imgray
